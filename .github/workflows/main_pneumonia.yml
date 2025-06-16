@@ -78,4 +78,5 @@ jobs:
         with:
           app-name: 'Pneumonia'
           slot-name: 'Production'
+          package: .
           
