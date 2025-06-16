@@ -1,0 +1,9 @@
+flask
+gunicorn
+scikit-learn
+tensorflow
+matplotlib
+numpy
+pillow
+flask
+gunicorn
