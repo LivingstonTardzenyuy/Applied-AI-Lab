@@ -5,5 +5,4 @@ tensorflow
 matplotlib
 numpy
 pillow
-flask
-gunicorn
+
