@@ -7,7 +7,13 @@ import os
 
 # Azure-compatible model loading
 model_path = os.path.join(os.path.dirname(__file__), 'model', 'model_2_augment_shuffles.h5')
-model = load_model(model_path)
+try:
+    model = load_model(model_path)
+    print("Model loaded successfully")
+except Exception as e:
+    print(f"Error loading model: {str(e)}")
+    raise
+
 
 app = Flask(__name__)
 
