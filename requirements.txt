@@ -1,8 +1,7 @@
-flask
-gunicorn
-scikit-learn
-tensorflow
-matplotlib
-numpy
-pillow
-
+flask==2.3.2
+gunicorn==20.1.0
+scikit-learn==1.3.0
+tensorflow==2.12.0
+matplotlib==3.7.1
+numpy==1.24.3
+pillow==9.5.0
